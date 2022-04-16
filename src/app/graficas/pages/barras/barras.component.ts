@@ -17,7 +17,7 @@ export class BarrasComponent implements OnInit {
 
     responsive: true,
     // We use these empty structures as placeholders for dynamic theming.
-   /* scales: {
+    scales: {
       x: {},
       y: {
         min: 10
@@ -31,7 +31,7 @@ export class BarrasComponent implements OnInit {
         anchor: 'end',
         align: 'end'
       }
-    }*/
+    }
 
   };
   public barChartType: ChartType = 'bar'; //Selleciona el tipo de grafica
