@@ -5,13 +5,22 @@
 
   <div class="col-md-6">
     Gráfica 1
-    <app-grafica-barra></app-grafica-barra>
+    <app-grafica-barra [horizontal]="true"
+                       [barChartData]="productosData"
+    >
+
+    </app-grafica-barra>
   </div>
 
   <div class="col-md-6">
     Gráfica 2
-    <app-grafica-barra></app-grafica-barra>
+    <app-grafica-barra [horizontal]="false"
+                       [barChartData]="proveedoresData"
+                       >
+
+    </app-grafica-barra>
   </div>
 
 </div>
+
 
